@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Header from './component/Header/Header'
+import Registration from './component/Registration/Registration';
+import Offer from './component/Offer/Offer';
 
 export default class App extends Component {
   state = {
@@ -14,9 +16,10 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Header
-          
-        />
+        <Header/>
+        <Registration />
+        <Offer />
+
       </div>
     )
   }
