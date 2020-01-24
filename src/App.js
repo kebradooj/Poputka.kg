@@ -17,8 +17,8 @@ export default class App extends Component {
     return (
       <div className='App'>
         <Header/>
-        <Registration />
         <Offer />
+        <Registration />
 
       </div>
     )

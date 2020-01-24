@@ -10,16 +10,16 @@ class Registration extends React.Component {
               <div className="pop-card">
                   <h3>Зарегистрироваться</h3>
                   <div>
-                      <input  className="inp_1"  type="text" placeholder="Ваше имя"></input>
+                      <input  className="inpu_1"  type="text" placeholder="Ваше имя"></input>
                   </div>
                   <div>
-                      <input className="inp_2"  type="tel" placeholder="Номер телефона"></input>
+                      <input className="inpu_2"  type="tel" placeholder="Номер телефона"></input>
                   </div>
                   <div>
-                      <input className="inp_3"  type="password" placeholder="Придумайте пароль"></input>
+                      <input className="inpu_3"  type="password" placeholder="Придумайте пароль"></input>
                   </div>
                   <div>
-                      <input className="inp_4"  type="password-confirm" placeholder="Повторите пароль"></input>
+                      <input className="inpu_4"  type="password-confirm" placeholder="Повторите пароль"></input>
                   </div>
                   <label className="pop-text-small">
                       <input className="pop-checkbox" type="checkbox"></input>
