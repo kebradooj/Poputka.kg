@@ -1,0 +1,12 @@
+{
+  "ways": [{
+    "from": "Bishkek",
+    "to": "Osh",
+    "date": "25 января",
+    "time": "13:00",
+    "price": 1200,
+    "vacancies": 2,
+    "phone": "+996550000000",
+    "name": "Руслан"
+  }]
+}
