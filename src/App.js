@@ -5,8 +5,6 @@ import Offer from './component/Offer/Offer';
 import SignUp from './component/SignUp/SignUp';
 import About from './component/About/About';
 
-
-
 export default class App extends Component {
   state = {
     modalIsShow: false
@@ -20,15 +18,12 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Header/>
+        <Header />
         <Offer />
         <Registration />
         <SignUp />
         <About />
-
-
       </div>
     )
   }
 }
-
