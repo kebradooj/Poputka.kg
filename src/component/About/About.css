@@ -1,0 +1,255 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 130px;
+}
+.main{
+    background-color: #cccccc;
+    margin: 0px 110px 0 110px ;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.post{
+    background-color: #cccccc;
+    
+}
+.circle{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+.icon{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+.one {
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.one > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.svg{
+    display: inline-block;
+    background: url('./find-svg.svg');
+    width: 16px;
+    height: 16px;    
+}
+.img{
+    background: url('./howitwork1.jpg');
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+}
+.secondBlock{
+    margin-top: 30px;
+}
+.icon_1{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.two{
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.two > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.img1{
+    background: url('./howitwork2.jpg');
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+.thirdBlock{
+    margin-top: 30px;
+}
+.icon_2{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.three{
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.three > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.img2{
+    background: url('./howitwork3.jpg');
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+
+
+.main_1{
+    background-color: #cccccc;
+    margin: 0px 110px 0 110px ;
+    padding: 30px;
+    height: 620px;
+}
+.post_1{
+    background-color: #cccccc;
+    
+}
+.circle_1{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+.icon_1{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+.one_1 {
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.one_1 > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.svg_1{
+    display: inline-block;
+    background: url('./find-svg.svg');
+    width: 16px;
+    height: 16px;    
+}
+.img_1{
+    background: url('./howitwork21.jpg');
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+}
+.secondBlock_1{
+    margin-top: 30px;
+}
+.icon_1_1{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.two_1{
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.two_1 > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.img1_1{
+    background: url('./howitwork22.jpg');
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+.thirdBlock_1{
+    margin-top: 30px;
+}
+.icon_2_1{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.three_1{
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.three_1 > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.fourthBlock{
+    margin-top: 20px;
+    display: flex;
+}
+.icon_3{
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.four{
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 245, 245);
+    display: inline-block;
+    font-weight: bold;
+}
+.four > span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.img2_1{
+    background: url('./howitwork23.jpg');
+    display: inline-block;
+    width: 300px;
+    height: 336px;
+    margin-left: 300px;
+    margin-top: -173px;
+}
