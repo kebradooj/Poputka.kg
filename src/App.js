@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from './component/Header/Header'
 import Registration from './component/Registration/Registration';
 import Offer from './component/Offer/Offer';
+import Search from './component/Search/Search'
 
 export default class App extends Component {
   state = {
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Header/>
         <Offer />
         <Registration />
+        <Search />
 
       </div>
     )
