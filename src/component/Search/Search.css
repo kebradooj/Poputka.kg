@@ -1,0 +1,153 @@
+#container {
+  background: ghostwhite;
+  padding: none;
+  margin: none;
+}
+
+.visit-search {
+  width: 100%;
+  height: 70px;
+  background: #f5f5f5;
+}
+
+.visits {
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  height: 40px;
+}
+
+.visit-left {
+  width: 325px;
+}
+
+.visit-inp1 {
+  width: 100%;
+  height: 30px;
+  border: 0.9px solid  rgb(185, 185, 185);
+  outline: none;
+  border-radius: 13px;
+}
+
+.visit-midpoint {
+  background: url(./arrow-right.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.visit-right {
+  width: 325px;
+}
+
+.visit-inp2 {
+  width: 100%;
+  height: 30px;
+  border: 0.9px solid  rgb(185, 185, 185);
+  outline: none;
+  border-radius: 13px;
+}
+
+button {
+  border: 1px solid rgb(185, 185, 185);
+  width: 130px;
+  height: 36px;
+  border-radius: 15px;
+  outline: 0.5px;
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: 40px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(185, 185, 185);
+  color: #fff;
+}
+
+.ads {
+  display: flex;
+  align-items: space-between;
+  background: rgb(204, 204, 204);
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 20px 20px;
+  min-height: 80px;
+  transition: 0.2s;
+  border-radius: 15px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.ads:hover {
+  background-color: green;
+  box-shadow: 0 8px 16px 0 black;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+.ads {
+  margin-top: 20px;
+  position: relative;
+}
+
+.ads-logoCar {
+  background-image: url(./car.png);
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+}
+
+.ads-toGo {
+  margin-left: 1rem;
+}
+
+.toGo-text1 {
+  display: inline;
+}
+
+.toGo-text1 > b, .toGo-text1 > span {
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+.toGo-text2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.toGo-hourIcon {
+  display: inline-block;
+  background-image: url(./Clock.svg);
+  height: 18px;
+  width: 18px;
+}
+
+.toGo-arrowIcon {
+  display: inline-block;
+  background-image: url(./arrow-right.svg);
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  margin: 0 5px 0 5px;
+}
+
+.toGo-seats {
+  margin-left: 5rem;
+}
+
+.seat-text1 {
+  margin: 0;
+}
+
+.seat-text2 {
+  margin-top: 1rem;
+}

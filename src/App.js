@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
 import Header from './component/Header/Header'
-import Registration from './component/Registration/Registration';
-import Offer from './component/Offer/Offer';
-import SignUp from './component/SignUp/SignUp';
-import About from './component/About/About';
-
-
+import HomePage from './component/Homepage/HomePage'
+import Footer from './component/Footer/Footer'
 
 export default class App extends Component {
   state = {
@@ -21,12 +17,8 @@ export default class App extends Component {
     return (
       <div className='App'>
         <Header/>
-        <Offer />
-        <Registration />
-        <SignUp />
-        <About />
-
-
+        <HomePage />
+        <Footer />
       </div>
     )
   }
