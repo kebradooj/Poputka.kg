@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Registration.css';
 
 class Registration extends React.Component {
@@ -28,7 +28,7 @@ class Registration extends React.Component {
                   <div>
                       <button className="pop-button" type="submit">Готово</button>
                   </div>
-                  <p class="pop-text-bold">Уже зарегистрированы?<a href='login'>Войти</a></p>
+                  <p className="pop-text-bold">Уже зарегистрированы?<a href='login'>Войти</a></p>
                   </div> 
                   </div>
                    

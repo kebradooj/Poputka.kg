@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import Header from './component/Header/Header'
-import HomePage from './component/Homepage/HomePage'
-import Footer from './component/Footer/Footer'
+import Routes from './Routes'
 
 export default class App extends Component {
   state = {
@@ -16,9 +14,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Header/>
-        <HomePage />
-        <Footer />
+        <Routes />
       </div>
     )
   }

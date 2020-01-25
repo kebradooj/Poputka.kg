@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom'
 import './Header.css'
 
 export default class Footer extends Component {
-  state = {
-    
-  }
-
   closeModal = event => {
     const className = event.target.className;
 
@@ -23,7 +19,7 @@ export default class Footer extends Component {
                 <div className='content-add'></div>
               </Link>
               <Link className='content-search' to='/search'></Link>
-              <Link className='content-menu' onClick={console.log('CLICKED')}>
+              <div className='content-menu' >
                 <button className="menu__closeBtn">X</button>
                 <ul>
                   <li><Link to='/search'>Найти поездку</Link></li>
@@ -31,7 +27,7 @@ export default class Footer extends Component {
                   <li><Link to='/account/login'><b>Войти</b></Link></li>
                   <li><Link to='/registration'><b>Регистрация</b></Link></li>
                 </ul>
-              </Link>
+              </div>
             </div>
           </div>
         </div>

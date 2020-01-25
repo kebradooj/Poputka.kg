@@ -23,20 +23,19 @@ class Search extends Component {
         <div className='ads'>
           <div className='ads-logoCar'></div>
           <div className='ads-toGo'>
-            <p className='toGo-text1'><b>january 27 </b>
+            <div className='toGo-text1'><b>january 27 </b>
               <span className='toGo-hourIcon'></span>
               <span> 00:00 </span>
-              <p className='toGo-text2'> Osh s.<span className='toGo-arrowIcon'></span> Bishkek
-            </p>
-            </p>
+              <p className='toGo-text2'> Osh s.<span className='toGo-arrowIcon'></span> Bishkek </p>
+            </div>
           </div>
           <div className='toGo-seats'>
-            <p className='seat-text1'>
+            <div className='seat-text1'>
               <b>1200сом</b> с пассажира.
-            <p className='seat-text2'>
-                свободных мест: <b>2</b>
+              <p className='seat-text2'>
+                  свободных мест: <b>2</b>
               </p>
-            </p>
+            </div>
           </div>
         </div>
 
