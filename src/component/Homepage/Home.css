@@ -1,0 +1,84 @@
+body{
+  margin: 0!important;
+}
+.home{
+  padding: 70px 0;
+}
+.homepage-flex{
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.h3-homepage{
+  font-size: 24px;
+  margin: 0 0 24px 0;
+  width: 260px;
+  text-align: center;
+}
+.homepage-content{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.homepage-bold{
+  font-weight: bolder;
+}
+.homepage-block{
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  background-color: white;
+  border-radius: 15px;
+  width: 375px;
+  height: 180px;
+  padding: 30px;
+}
+.homepage-block-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.homepage-block-content{
+  width: 273px;
+  height: 161px;
+}
+.homepage-block-img1{
+  background: no-repeat url(./team.png);
+  display: inline-block;
+  background-size: cover;
+  width: 71.25px;
+  height: 71.25px;
+}
+.homepage-block-img2{
+  background: no-repeat url(./carmain.png);
+  display: inline-block;
+  background-size: cover;
+  width: 71.25px;
+  height: 71.25px;
+}
+.homepage-link{
+  width: auto;
+  height: 39px;
+  border-radius: 30px;
+  color: white;
+  background-color: #32d296;
+  padding: 8px 25px;
+  background: linear-gradient(45deg, #02e577 0%,#4db6ac 100%);
+}
+.homepage-link:hover{
+  background: linear-gradient(135deg, #02e577 0%,#4db6ac 100%);
+}
+.homepage-ads{
+  position: relative;
+  width: 375px;
+  height: 180px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin: 40px 0;
+  border-radius: 15px;
+}
+.homepage-ads-bg{
+  display: inline-block;
+  min-width: 100%;
+  min-height: 100%;
+  background: no-repeat url(./banner-pop.jpg)
+}

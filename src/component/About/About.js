@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 import './About.css'
 
 class About extends Component {
     render() {
-        return (
+        return (<>
+            <Header/>
             <div className ='container'>
                 <div className ='text'>
                     <h1>Как это работает</h1>
@@ -74,6 +77,8 @@ class About extends Component {
                 </div>
             </div>
             </div>
+            <Footer/>
+            </>
         );
     }
 }
