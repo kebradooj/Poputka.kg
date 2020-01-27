@@ -5,11 +5,16 @@ import Search from '../Search/Search'
 import Footer from '../Footer/Footer'
 
 class SearchPage extends Component {
+  state = {
+  }
+
   render() {
     return (
       <div className="search-page">
         <Header/>
-        <Search />
+        <Search
+          onChange={this.handleFindTrips}
+        />
         <Footer />
       </div>
     );
