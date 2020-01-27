@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 import './SignUp.css'
 
 class SignUp extends Component {
     render() {
         return (
+        <>
+        <Header />
          <div className ='container'>
             <div className ='main'>
                 <div className ='post'>
@@ -25,7 +28,7 @@ class SignUp extends Component {
                         </a>
                     </div>
                     <div className='link_1'>
-                        <a className='registration'>Забыли пароль?</a>
+                        <a className='link-regist'>Забыли пароль?</a>
                     </div>
                     <div className='link_2'>
                         <a className='registration'>Регистрация</a>
@@ -33,6 +36,8 @@ class SignUp extends Component {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
         );
     }
 }

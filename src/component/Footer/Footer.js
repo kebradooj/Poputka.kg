@@ -6,6 +6,7 @@ import './Footer.css'
 class Footer extends Component {
   render() {
     return (
+      
         <div className='main-footer'>
           <div className='container'>
           <div className='footer-left'>

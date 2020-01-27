@@ -1,12 +1,13 @@
 import React from 'react';
 import './Registration.css';
 
+
 class Registration extends React.Component {
     render() {
         return (
             
             <div className="container">
-                <div className="main">
+                <div className="main-registration">
               <div className="pop-card">
                   <h3>Зарегистрироваться</h3>
                   <div>
@@ -28,12 +29,11 @@ class Registration extends React.Component {
                   <div>
                       <button className="pop-button" type="submit">Готово</button>
                   </div>
-                  <p className="pop-text-bold">Уже зарегистрированы?<a href='login'>Войти</a></p>
+                  <p>Уже зарегистрированы?<a className="link-registration" href='login'>Войти</a></p>
                   </div> 
-                  </div>
-                   
+                  </div>   
             </div> 
-        
+                   
         );
     }
 }

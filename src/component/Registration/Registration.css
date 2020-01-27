@@ -1,12 +1,10 @@
 .container{
     max-width: 900px;
-    margin: 0 auto;
-    
+    margin: 0 ;
 }
-.main{
+.main-registration{
     text-align: center;
-    margin-top: 100px;
-    margin: 100px 200px 0 200px;
+    margin: 100px 200px;
     flex-wrap: wrap;
     background-color: #ecebeb;
 }
@@ -15,6 +13,7 @@ h3{
 }
 .pop-card{
     padding: 40px;  
+    
 }
 .inpu_1{
     width: 100%;
@@ -62,7 +61,6 @@ h3{
     width: 100%;
     height: 40px;
     margin: 20px 0;
-
 }
 .pop-button:hover{
     background-color: #13dba9;
@@ -71,6 +69,14 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-.pop-text-bold{
-    margin-bottom: 0;
+p{
+    color: #999999;
+    font-weight: bold;
+}
+.link-registration{
+    color: #4cb6aa;
+    font-weight: bold;
+}
+.link-registration:hover{
+    color: #2cb6aa
 }

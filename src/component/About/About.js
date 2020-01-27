@@ -36,7 +36,8 @@ class About extends Component {
                         <div className='icon_2'>
                             <span className='three'>3</span>
                             <span>Выберите поездку, которая подходит именно вам! Свяжитесь с водителем,
-                                 задайте интересующие вас вопросы. Путешествуйте вместе!</span>
+                                 задайте интересующие вас вопросы. Путешествуйте вместе!
+                            </span>
                         </div>
                         <div className='img2'></div>
                     </div>

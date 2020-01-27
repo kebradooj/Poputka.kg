@@ -12,8 +12,7 @@ class OfferPage extends Component {
         <Registration />
         <Footer />
       </div>
-    );
-    
+    )
   }
 }
 
