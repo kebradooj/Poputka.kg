@@ -18,16 +18,8 @@ export default class Footer extends Component {
               <Link className='content-add-bg' to='/modal'>
                 <div className='content-add'></div>
               </Link>
-              <Link className='content-search' to='/search'></Link>
-              <div className='content-menu' >
-                <button className="menu__closeBtn">X</button>
-                <ul>
-                  <li><Link to='/search'>Найти поездку</Link></li>
-                  <li><Link to='/offer'>Предложить поездку</Link></li>
-                  <li><Link to='/account/login'><b>Войти</b></Link></li>
-                  <li><Link to='/registration'><b>Регистрация</b></Link></li>
-                </ul>
-              </div>
+              <Link className='content-search' to='/search-page'></Link>
+              <div className='content-menu'></div>
             </div>
           </div>
         </div>
