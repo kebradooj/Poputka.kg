@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom'
 
 import HomePage from './component/Homepage/HomePage'
-import SearchPage from './component/SearchPage/SearchPage'
+import SearchPage from './component/Search/Search'
 import OfferPage from './component/OfferPage/OfferPage'
 import About from './component/About/About'
 import SignUp from './component/SignUp/SignUp'

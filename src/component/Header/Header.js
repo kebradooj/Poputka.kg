@@ -19,7 +19,7 @@ export default class Footer extends Component {
                 <div className='content-add'></div>
               </Link>
               <Link className='content-search' to='/search-page'></Link>
-              <div className='content-menu' onClick={}>
+              <div className='content-menu'>
                 <button className="menu__closeBtn">X</button>
                 <ul>
                   <li><Link to='/search-page'>Найти поездку</Link></li>
