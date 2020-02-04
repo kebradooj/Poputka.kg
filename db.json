@@ -8,5 +8,45 @@
     "vacancies": 2,
     "phone": "+996550000000",
     "name": "Руслан"
+  },
+  {
+    "from": "Bishkek",
+    "to": "Talas",
+    "date": "25 января",
+    "time": "13:00",
+    "price": 700,
+    "vacancies": 2,
+    "phone": "+996550000000",
+    "name": "Руслан"
+  },
+  {
+    "from": "Yssyk-Kol",
+    "to": "Osh",
+    "date": "25 января",
+    "time": "13:00",
+    "price": 1400,
+    "vacancies": 2,
+    "phone": "+996550000000",
+    "name": "Руслан"
+  },
+  {
+    "from": "Jalal-abad",
+    "to": "Osh",
+    "date": "25 января",
+    "time": "13:00",
+    "price": 300,
+    "vacancies": 2,
+    "phone": "+996550000000",
+    "name": "Руслан"
+  },
+  {
+    "from": "Bishkek",
+    "to": "Batken",
+    "date": "25 января",
+    "time": "13:00",
+    "price": 1500,
+    "vacancies": 2,
+    "phone": "+996550000000",
+    "name": "Руслан"
   }]
 }
